@@ -10,7 +10,7 @@
 - клонируем репозиторий
 ```
 git clone git@github.com:marentsov/Django-InertiaJS-React.git
-cd DjangoInertiaJSReact
+cd Django-InertiaJS-React
 ```
 - устанавливаем проект
 ```
@@ -21,10 +21,11 @@ make migrate
 ```
 make admin
 ```
+Придумываем и вводим `Username`, `Email address` и `Password` админа
+
 - открываем два терминала
 
 - в первом:
-
 ```
 make start-backend
 ```
@@ -40,7 +41,7 @@ make start-frontend
 
 - или переходим по ссылке http://localhost:8000/admin
 
-- добавляем товары
+- вводим `Username` и `Password` админа и добавляем товары 
 
 - проект становится доступен по ссылке - http://localhost:8000/
 
@@ -52,7 +53,7 @@ make start-frontend
 - клонируем репозиторий
 ```
 git clone git@github.com:marentsov/Django-InertiaJS-React.git
-cd DjangoInertiaJSReact
+cd Django-InertiaJS-React
 ```
 - запускаем проект
 ```
@@ -66,12 +67,15 @@ make docker-migrate
 ```
 make docker-admin
 ```
+Придумываем и вводим `Username`, `Email address` и `Password` админа
+
+
 - переходим по ссылке http://localhost:8000/products/create
 
 - добавляем товары через форму
 
 - или переходим по ссылке http://localhost:8000/admin
 
-- добавляем товары
+- вводим `Username` и `Password` админа и добавляем товары
 
 - проект становится доступен по ссылке - http://localhost:8000/
